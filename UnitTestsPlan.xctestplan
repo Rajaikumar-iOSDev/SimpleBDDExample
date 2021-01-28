@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "3CB8EEAE-F395-4F60-A33C-A099FCFC9A62",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SimpleBDDExample.xcodeproj",
+        "identifier" : "8468F68225C2D04C0065E8DD",
+        "name" : "SimpleBDDExampleTests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "01A20A95-39F2-40E0-8EB2-8F7594EF4FA1",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "enabled" : false,
+      "target" : {
+        "containerPath" : "container:SimpleBDDExample.xcodeproj",
+        "identifier" : "8468F68225C2D04C0065E8DD",
+        "name" : "SimpleBDDExampleTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:SimpleBDDExample.xcodeproj",
+        "identifier" : "8468F68D25C2D04C0065E8DD",
+        "name" : "SimpleBDDExampleUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
