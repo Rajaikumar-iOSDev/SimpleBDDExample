@@ -2,7 +2,7 @@
 //  SimpleBDDExampleUITests.swift
 //  SimpleBDDExampleUITests
 //
-//  Created by Admin on 28/01/21.
+//  Created by Rajai kumar on 28/01/21.
 //
 
 import XCTest
