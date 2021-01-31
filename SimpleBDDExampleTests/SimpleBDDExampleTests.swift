@@ -32,7 +32,7 @@ class SimpleBDDExampleTests: XCTestCase {
         let b = UITextField()
         b.text = "2"
         //When
-        let answer = sut.calculateValues(withOperator: .addition, inputOne: sut.getIntFromTextfield(inputTextField: a), inputTwo: sut.getIntFromTextfield(inputTextField: b))
+        let answer = sut.calculateValues(withOperator: .addition, inputOne: sut.getIntFrom(textField: a), inputTwo: sut.getIntFrom(textField: b))
         //Then
         XCTAssertEqual(answer, "3", "Details: Input was  1 + 2 and the result should have been 3",file: "ViewController.swift",line: 61)
     }
@@ -42,7 +42,7 @@ class SimpleBDDExampleTests: XCTestCase {
         let a = UITextField()
         a.text = "1"
         //When
-        let result = sut.getIntFromTextfield(inputTextField: a)
+        let result = sut.getIntFrom(textField: a)
         //Then
         XCTAssertEqual(result, 1, "Details: Input was  String type -1  and the result should have been Int type -1",file: "ViewController.swift",line: 38)
         

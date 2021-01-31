@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         
     }
     
-    func getIntFromTextfield(inputTextField: UITextField) -> Int {
+    func getIntFrom(textField inputTextField: UITextField) -> Int {
         if let input = inputTextField.text {
             if let input = Int(input){
                 return input
@@ -52,8 +52,7 @@ class ViewController: UIViewController {
     
     @IBAction func performMath(_ sender: Any) {
         
-        answerLabel.text = calculateValues(withOperator: currentOperator, inputOne: getIntFromTextfield(inputTextField: inputOne), inputTwo: getIntFromTextfield(inputTextField: inputTwo))
-        
+        answerLabel.text = calculateValues(withOperator: currentOperator, inputOne: getIntFrom(textField: inputOne), inputTwo: getIntFrom( textField: inputTwo))
         
         
     }
