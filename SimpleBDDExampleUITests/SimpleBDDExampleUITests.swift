@@ -42,6 +42,10 @@ class SimpleBDDExampleUITests: XCTestCase {
         let inputOne = "1"
         let inputTwo = "2"
         let answer = "3"
+
+        //And
+
+        XCUIApplication().buttons["+"].tap()
         
         //When
        let textField1 =  app.textFields["TF1"]
@@ -72,7 +76,10 @@ class SimpleBDDExampleUITests: XCTestCase {
         let inputOne = "2"
         let inputTwo = "1"
         let answer = "1"
+
+        //And
         
+        XCUIApplication()/*@START_MENU_TOKEN@*/.buttons["-"]/*[[".segmentedControls.buttons[\"-\"]",".buttons[\"-\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
 
         //When
         let textField1 =  app.textFields["TF1"]
@@ -83,11 +90,8 @@ class SimpleBDDExampleUITests: XCTestCase {
          let textField2 =  app.textFields["TF2"]
          textField2.tap()
          textField2.typeText(inputTwo)
-
-       
-        XCUIApplication()/*@START_MENU_TOKEN@*/.buttons["-"]/*[[".segmentedControls.buttons[\"-\"]",".buttons[\"-\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        app.buttons["="].tap()
-        let answerLabel = app.staticTexts[answer]
+         app.buttons["="].tap()
+         let answerLabel = app.staticTexts[answer]
         
         //Then
         XCTAssertTrue(answerLabel.exists,"Details: Input was 2-1 and expecterd answer is 1")
