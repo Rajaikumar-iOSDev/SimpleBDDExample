@@ -4,6 +4,13 @@ This is an example of basic implementation of BDD(Given, When & Then) in swift.
 
 UI test cases built on top of unit test cases. Seperate test plans created for UI & unit test cases.
 
+## Tutorial 
+
+Since it was a big read, I have seperated it into two parts. 
+
+Part 1: https://rajaikumar.medium.com/ios-behavioural-testing-given-when-then-in-ui-unit-testing-part-1-41e3eff8811b
+Part 2: https://rajaikumar.medium.com/ios-behavioural-testing-given-when-then-in-ui-unit-testing-part-2-ffbf0228604a
+
 ## Tech stack
 
 UIKit, XCTest, Swift & Xcode.
