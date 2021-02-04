@@ -24,4 +24,4 @@ UIKit, XCTest, Swift & Xcode.
 [Rajai kumar](https://github.com/Rajaikumar-iOSDev)
 
 # 🔖 Licence 
-The project is availabe under [MIT licence](https://github.com/jVirus/spritekit-water-node-ios-app/blob/master/LICENSE).
+The project is availabe under [MIT licence](https://github.com/Rajaikumar-iOSDev/SimpleBDDExample/blob/main/LICENSE).
