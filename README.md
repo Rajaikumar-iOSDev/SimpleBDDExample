@@ -1,4 +1,4 @@
-# SimpleBDDExample
+# 🧪SimpleBDDExample
 
 This is an example of basic implementation of BDD(Given, When & Then) in swift. 
 
